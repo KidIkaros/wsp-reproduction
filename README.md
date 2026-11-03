@@ -7,9 +7,9 @@ total) without any frontier-LLM-in-the-loop: the diagnosis and edit were perform
 scripts, not by GPT-6 Astra.
 
 **Models produced:**
-- `hf.co/<your-username>/qwen3.5-0.8b-loop-fix` — the variant with an **independently
+- `hf.co/KidIkaros/qwen3.5-0.8b-loop-fix` — the variant with an **independently
   diagnosed** loop direction
-- `hf.co/<your-username>/qwen3.5-0.8b-loop-fix-reproduction` — a **bit-exact rebuild**
+- `hf.co/KidIkaros/qwen3.5-0.8b-loop-fix-reproduction` — a **bit-exact rebuild**
   of the paper's released edit (every edited tensor sha256-verifies against the authors'
   manifest)
 

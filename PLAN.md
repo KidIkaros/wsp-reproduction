@@ -130,7 +130,7 @@ paired against Stage-1 baseline on the same problems (same sampling, same order)
 - Deliverables staged: hf-upload/qwen3.5-0.8b-loop-fix/ (ours) and
   hf-upload/qwen3.5-0.8b-loop-fix-reproduction/ (theirs), each with README model
   card + full checkpoint (1.7GB). User uploads to HF themselves (no local token
-  found; placeholders <your-username> in cross-links to fix at upload).
+  found; placeholders KidIkaros cross-links updated at upload).
 
 ## Interpretability side-finding
 
