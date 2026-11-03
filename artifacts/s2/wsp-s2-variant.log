@@ -1,0 +1,62 @@
+[{"stream_name":"stdout","time":0.7806695,"data":"launcher: installing pinned deps\n"}
+,{"stream_name":"stdout","time":17.640046064,"data":"launcher: deps installed 17 s\n"}
+,{"stream_name":"stdout","time":23.60366105,"data":"launcher: device_count = 2\n"}
+,{"stream_name":"stdout","time":23.900006939,"data":"launcher: MAT_DIR = /kaggle/input/datasets/mauricew/wsp-s2-materials\n"}
+,{"stream_name":"stdout","time":23.900997528,"data":"launcher: started ours on cuda:0\n"}
+,{"stream_name":"stdout","time":23.901680203,"data":"launcher: started theirs on cuda:1\n"}
+,{"stream_name":"stdout","time":25.634391664,"data":"[theirs 0s] problems from stage-1: 18 looped: 16\n"}
+,{"stream_name":"stdout","time":25.635227916,"data":"[ours 0s] problems from stage-1: 18 looped: 16\n"}
+,{"stream_name":"stderr","time":26.798836057,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":38.169266716,"data":"\rFetching 13 files:   8%|▊         | 1/13 [00:00\u003c00:01,  7.09it/s]\rFetching 13 files:  85%|████████▍ | 11/13 [00:00\u003c00:00, 46.74it/s]\rFetching 13 files: 100%|██████████| 13/13 [00:11\u003c00:00,  1.14it/s]\n"}
+,{"stream_name":"stdout","time":39.512855366,"data":"[theirs 14s] model.language_model.layers.15.mlp.down_proj.weight: sha256 OK (65,260 entries)\n"}
+,{"stream_name":"stdout","time":39.635713174,"data":"[theirs 14s] model.language_model.layers.19.mlp.down_proj.weight: sha256 OK (64,928 entries)\n"}
+,{"stream_name":"stderr","time":39.696683698,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\rFetching 13 files: 100%|██████████| 13/13 [00:00\u003c00:00, 1409.96it/s]\n"}
+,{"stream_name":"stdout","time":41.721991413,"data":"[theirs 16s] theirs: edited model saved to /kaggle/working/theirs/model_theirs\n"}
+,{"stream_name":"stderr","time":45.824846916,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":64.266205177,"data":"\rLoading weights:   0%|          | 0/320 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 0/320 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/320 [00:01\u003c06:07,  1.15s/it]\rLoading weights:   0%|          | 1/320 [00:01\u003c06:29,  1.22s/it]\rLoading weights: 100%|██████████| 320/320 [00:01\u003c00:00, 272.77it/s]\n"}
+,{"stream_name":"stderr","time":64.272150771,"data":"\rLoading weights: 100%|██████████| 320/320 [00:01\u003c00:00, 257.77it/s]\n"}
+,{"stream_name":"stdout","time":64.354310219,"data":"[theirs 39s] verification model loaded from /kaggle/working/theirs/model_theirs | missing keys: 0 unexpected: 0\n"}
+,{"stream_name":"stdout","time":64.355773273,"data":"[theirs 39s] verification model loaded from /kaggle/working/theirs/model_theirs\n"}
+,{"stream_name":"stdout","time":64.371420836,"data":"[ours 39s] base model loaded for diagnosis\n"}
+,{"stream_name":"stdout","time":64.371890127,"data":"[ours 39s] hooking layers [15, 19]\n"}
+,{"stream_name":"stdout","time":64.372150908,"data":"[ours 39s] diagnosis contexts: loop 6 prod 2\n"}
+,{"stream_name":"stderr","time":64.827288888,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":64.903935921,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":160.159204689,"data":"[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":163.415030565,"data":"[ours 138s] captured loop: 'A department store offers a 10% discount'\n"}
+,{"stream_name":"stdout","time":165.545687619,"data":"[ours 140s] captured loop: 'Steve decides to read a new book.  He re'\n"}
+,{"stream_name":"stdout","time":167.870804291,"data":"[ours 142s] captured loop: 'Adam has 50 balls. 20 balls are red, 10 '\n"}
+,{"stream_name":"stdout","time":170.052408178,"data":"[ours 145s] captured loop: 'James has 28 marbles.  He puts them into'\n"}
+,{"stream_name":"stdout","time":172.123583972,"data":"[ours 147s] captured loop: 'A school has 15 classrooms. One-third of'\n"}
+,{"stream_name":"stdout","time":174.565507018,"data":"[ours 149s] captured loop: 'Jerry paid off some of his debts. Two mo'\n"}
+,{"stream_name":"stdout","time":175.865432805,"data":"[ours 150s] captured prod: 'Mustafa buys a fridge, a TV and a comput'\n"}
+,{"stream_name":"stdout","time":177.849295388,"data":"[ours 152s] captured prod: 'Tina has 12 pink pens. She has 9 fewer g'\n"}
+,{"stream_name":"stderr","time":177.923446593,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\rFetching 13 files: 100%|██████████| 13/13 [00:00\u003c00:00, 1349.22it/s]\n"}
+,{"stream_name":"stdout","time":178.101231054,"data":"[ours 153s] layer 15: cos(ours, theirs) = 0.3499\n"}
+,{"stream_name":"stdout","time":178.20021269,"data":"[ours 153s] layer 19: cos(ours, theirs) = 0.4488\n"}
+,{"stream_name":"stderr","time":178.23800739,"data":"\rFetching 13 files:   0%|          | 0/13 [00:00\u003c?, ?it/s]\rFetching 13 files: 100%|██████████| 13/13 [00:00\u003c00:00, 790.96it/s]\n"}
+,{"stream_name":"stdout","time":181.435453633,"data":"[ours 156s] ours: edited model saved to /kaggle/working/ours/model_ours\n"}
+,{"stream_name":"stderr","time":183.134389029,"data":"\rLoading weights:   0%|          | 0/320 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/320 [00:00\u003c03:45,  1.41it/s]\rLoading weights:  96%|█████████▋| 308/320 [00:00\u003c00:00, 515.43it/s]\rLoading weights: 100%|██████████| 320/320 [00:00\u003c00:00, 386.98it/s]\n"}
+,{"stream_name":"stdout","time":183.152036007,"data":"[ours 158s] verification model loaded from /kaggle/working/ours/model_ours | missing keys: 0 unexpected: 0\n"}
+,{"stream_name":"stdout","time":183.153843273,"data":"[ours 158s] verification model loaded from /kaggle/working/ours/model_ours\n"}
+,{"stream_name":"stderr","time":183.700523876,"data":"[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":1391.15243327,"data":"[theirs 1366s] batch 0: 98392 tokens, 1326.8s\n"}
+,{"stream_name":"stdout","time":1403.749808766,"data":"[ours 1378s] batch 0: 98392 tokens, 1220.6s\n"}
+,{"stream_name":"stdout","time":2619.435413877,"data":"[theirs 2594s] batch 1: 98431 tokens, 1228.2s\n"}
+,{"stream_name":"stdout","time":2623.060438407,"data":"[ours 2598s] batch 1: 98431 tokens, 1219.3s\n"}
+,{"stream_name":"stdout","time":3861.32799475,"data":"[ours 3836s] batch 2: 99664 tokens, 1238.2s\n"}
+,{"stream_name":"stdout","time":3861.354853935,"data":"[ours 3836s] SUMMARY {\"status\": \"complete\", \"arm\": \"ours\", \"presence\": 1.5, \"n\": 18, \"closed\": 15, \"closed_frac\": 0.8333333333333334, \"mean_gen_tokens\": 16471.5, \"elapsed_s\": 3835.858107805252}\n"}
+,{"stream_name":"stdout","time":3864.212230331,"data":"[theirs 3839s] batch 2: 99664 tokens, 1244.7s\n"}
+,{"stream_name":"stdout","time":3864.256538591,"data":"[theirs 3839s] SUMMARY {\"status\": \"complete\", \"arm\": \"theirs\", \"presence\": 1.5, \"n\": 18, \"closed\": 17, \"closed_frac\": 0.9444444444444444, \"mean_gen_tokens\": 16471.5, \"elapsed_s\": 3838.740070581436}\n"}
+,{"stream_name":"stdout","time":3867.256091849,"data":"launcher: ours exited rc=0 at 3866s\n"}
+,{"stream_name":"stdout","time":3867.256868039,"data":"launcher: ours meta: {'status': 'complete', 'arm': 'ours', 'presence': 1.5, 'n': 18, 'closed': 15, 'closed_frac': 0.8333333333333334, 'mean_gen_tokens': 16471.5, 'elapsed_s': 3835.858107805252}\n"}
+,{"stream_name":"stdout","time":3867.325548125,"data":"launcher: theirs exited rc=0 at 3867s\n"}
+,{"stream_name":"stdout","time":3867.325727624,"data":"launcher: theirs meta: {'status': 'complete', 'arm': 'theirs', 'presence': 1.5, 'n': 18, 'closed': 17, 'closed_frac': 0.9444444444444444, 'mean_gen_tokens': 16471.5, 'elapsed_s': 3838.740070581436}\n"}
+,{"stream_name":"stdout","time":3867.325739854,"data":"launcher: all arms complete 3867 s\n"}
+,{"stream_name":"stderr","time":3869.783718229,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3869.783746993,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3870.040411963,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3870.040444695,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3870.802980447,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3871.822184045,"data":"[NbConvertApp] Writing 304859 bytes to __results__.html\n"}
+]

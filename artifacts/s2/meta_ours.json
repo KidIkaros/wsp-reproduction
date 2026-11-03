@@ -1,0 +1,10 @@
+{
+ "status": "complete",
+ "arm": "ours",
+ "presence": 1.5,
+ "n": 18,
+ "closed": 15,
+ "closed_frac": 0.8333333333333334,
+ "mean_gen_tokens": 16471.5,
+ "elapsed_s": 3835.858107805252
+}

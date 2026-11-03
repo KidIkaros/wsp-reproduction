@@ -1,0 +1,19 @@
+# weights and heavy artifacts live on HF / Kaggle, not in git
+models/
+hf-upload/
+*.safetensors
+*.npy
+__pycache__/
+.dryrun*/
+.dryrun2/
+.s1out/
+.s2out/
+.scratch/
+.neuronpedia/
+.logs*
+.apidoc.html
+.np_api.json
+*.pyc
+.ipynb_checkpoints/
+.s2log*.txt
+.splice_check.py

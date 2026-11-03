@@ -1,0 +1,14 @@
+{
+ "id": "mauricew/wsp-s1-baseline",
+ "title": "wsp-s1-baseline",
+ "code_file": "main.py",
+ "language": "python",
+ "kernel_type": "script",
+ "enable_gpu": true,
+ "enable_internet": true,
+ "is_private": true,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "kernel_sources": [],
+ "model_sources": []
+}

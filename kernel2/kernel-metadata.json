@@ -1,0 +1,16 @@
+{
+ "id": "mauricew/wsp-s2-variant",
+ "title": "wsp-s2-variant",
+ "code_file": "main.py",
+ "language": "python",
+ "kernel_type": "script",
+ "enable_gpu": true,
+ "enable_internet": true,
+ "is_private": true,
+ "dataset_sources": [
+  "mauricew/wsp-s2-materials"
+ ],
+ "competition_sources": [],
+ "kernel_sources": [],
+ "model_sources": []
+}

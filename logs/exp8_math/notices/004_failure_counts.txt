@@ -1,0 +1,1 @@
+Correction to the generation-pass summaries: the failure count "no_answer_finished" now counts only answers in which the grader finds no final answer at all under your evaluation's grading rule; until now it also counted answers whose stated final answer was wrong. Earlier summaries in this session over-counted that category.
